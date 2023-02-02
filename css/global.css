@@ -1,0 +1,56 @@
+/* Reset Tamanho da Fonte P/ utilizar "REM" */
+
+html {
+  font-size: 62.5%;
+}
+
+/* Reset's */
+
+body {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.subtitulo {
+  font-weight: 700;
+  font-size: 12rem;
+  line-height: 14.4rem;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subtitulo{
+    font-size: 8rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  } 
+}
+
+@media (max-width: 470px) {
+  .subtitulo {
+    font-size: 6rem;
+  }
+}
